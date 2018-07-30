@@ -7,6 +7,22 @@
   background-position: center;
   color: white;
   position: relative;
+  &:hover{
+            transform: rotate(360deg) translate(0%);
+            -moz-transform: rotate(360deg) translate(0%);
+            -webkit-transform: rotate(360deg) translate(0%);
+            -o-transform: rotate(360deg) translate(0%);
+            -ms-transform: rotate(360deg) translate(0%);
+            -khtml-transform: rotate(360deg) translate(0%);
+            transition: all 2s ease;
+            -moz-transition: all 2s ease;
+            -webkit-transition: all 2s ease;
+            -o-transition: all 2s ease;
+            -ms-transition: all 2s ease;
+            -khtml-transition: all 2s ease;
+            color: pink;
+            text-shadow: 1 1 black;
+        }
 }
 .card-user {
   position: absolute;
@@ -44,9 +60,7 @@
   z-index: 2;
   background: black;
   opacity: 0;
-  -moz-transition: all 1s ease;
   &:hover {
-  -moz-transform: scale(2) rotate(30deg) translate(50px);
   opacity: 0.1;
   }
 }
