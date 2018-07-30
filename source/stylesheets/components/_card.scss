@@ -44,6 +44,7 @@
   z-index: 2;
   background: black;
   opacity: 0;
+  -moz-transition: all 1s ease;
   &:hover {
   -moz-transform: scale(2) rotate(30deg) translate(50px);
   opacity: 0.1;
